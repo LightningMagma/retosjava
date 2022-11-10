@@ -2,8 +2,8 @@ package retos;
 import java.util.*;
 public class reto_nueve {
     public static void main(String[] args) {
-        int[][] valor=new int[2][2];
-        String[][] producto=new String[2][2];
+        int[][] valor=new int[4][4];
+        String[][] producto=new String[4][4];
         Scanner ingreso=new Scanner(System.in);
         System.out.println("Bienvenido a la máquina expendedora\nPrimero debe registrar los productos con su nombre y precio respectivo");
         for (int i = 0; i < producto.length; i++) {
@@ -16,11 +16,11 @@ public class reto_nueve {
         }
 
         for (int i = 0; i < producto.length; i++) {
-            System.out.println("\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+            System.out.println("\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
             for (int j = 0; j < producto.length; j++) {
                 System.out.print(""+i+""+j+" "+producto[i][j]+" "+valor[i][j]+"   ");
             }
-            System.out.println("\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+            System.out.println("\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
         }
         ingreso.close();
     }
